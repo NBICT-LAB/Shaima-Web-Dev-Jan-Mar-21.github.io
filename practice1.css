@@ -1,0 +1,22 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    padding: 10px;
+}
+
+div{
+    border: 1px solid black;
+}
+
+
+#heading{
+    background-color: aqua;
+    text-align: center;
+
+}
+
+#pragraph{
+   background-color: #DEB887;
+   text-align: justify;
+
+}
