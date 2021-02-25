@@ -207,5 +207,7 @@ NBICT LAB for 5 years");
 
 */
 
-const myName = "Shaima";
-console.log(myName);
+const myName = "Sohana";
+const lastName ="Shaima";
+console.log(myName, lastName);
+
