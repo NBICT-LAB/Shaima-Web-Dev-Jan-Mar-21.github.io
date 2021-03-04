@@ -206,7 +206,7 @@ I am learning Javascript \n\
 NBICT LAB for 5 years");
 
 */
-
+/*
 const myName = "Sohana";
 const lastName ="Shaima.";
 const result = myName + lastName;
@@ -247,7 +247,7 @@ console.log(`If we add 1 to ${population} then we get ${newpopulation}.`);
 let finpopulation = 6;
 let condition = population > finpopulation;
 
-if(condition){
+if(condition;){
     console.log(`Our population is greater than finland's population.`);
 }
  else{
@@ -272,3 +272,17 @@ if(condition2){
 }else{
     console.log(`${country}es population is below average.`);
 }
+
+*/
+
+const age = 17;
+let year;
+
+if(age >= 18){
+    console.log(`Sara is eligible for license.`);
+}else{
+     year = 18 - age;
+    console.log(`Sara is not eligible for license. `);
+}
+
+console.log(`She have to wait another ${year} year.`);
