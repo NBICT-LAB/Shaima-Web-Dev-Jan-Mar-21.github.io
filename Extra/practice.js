@@ -213,3 +213,62 @@ const result = myName + lastName;
 
 console.log(result);
 
+
+const country = 'Bangladesh';
+const continent = 'Asia';
+const population =  180;
+
+console.log(country , continent , population);
+
+const isIsland = 'true';
+const language = 'Bangla';
+
+console.log(`typeof Country is ${typeof(country)}.`);
+
+console.log(`typeof Continent is ${typeof(continent)}.`);
+
+console.log(`typeof Population is ${typeof(population)}.`);
+
+console.log(`typeof isIsland is ${typeof(isIsland)}.`);
+
+console.log(`typeof Language is ${typeof(language)}.`);
+
+
+const firstHalf = population / 2;
+const secondHalf = population - firstHalf;
+
+console.log(`Each half will contain ${secondHalf} million people.`);
+ 
+
+const newpopulation = population + 1;
+
+console.log(`If we add 1 to ${population} then we get ${newpopulation}.`);
+
+let finpopulation = 6;
+let condition = population > finpopulation;
+
+if(condition){
+    console.log(`Our population is greater than finland's population.`);
+}
+ else{
+    console.log(`Our population is less than finland's population.`);
+}
+
+let averagepopulation = 33;
+let condition1 = population > averagepopulation;
+
+if(condition){
+    console.log(`Our Population is greater than average population.`);
+}else{
+    console.log(`Our Population is less than average population.`);
+}
+
+console.log(`${country} is in ${continent}, and its ${population} million people speak ${language}.`);
+
+let condition2 = population > averagepopulation;
+
+if(condition2){
+    console.log(`${country}es population is above average.`);
+}else{
+    console.log(`${country}es population is below average.`);
+}
